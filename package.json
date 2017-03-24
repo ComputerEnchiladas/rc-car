@@ -1,0 +1,17 @@
+{
+  "name": "rc-car",
+  "version": "0.0.1",
+  "description": "",
+  "repository": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "johnny-five": "^0.10.6",
+    "mahrio": "^1.0.0",
+    "node-env-file": "0.1.8",
+    "onoff": "^1.1.2",
+    "socket.io": "^1.7.3"
+  }
+}
