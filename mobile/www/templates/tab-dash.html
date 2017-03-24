@@ -1,5 +1,10 @@
 <ion-view view-title="Dashboard">
   <ion-content class="padding">
-    <div ng-class="{true: 'active'}[motion]" class="led">  
+    <img src="http://192.168.0.8:9090/stream/video.mjpeg" style="width: 100%"/>
+
+    <button ng-mousedown="buttonOn('FWD')" ng-mouseup="buttonOff('FWD')">FWD</button>
+    <button ng-mousedown="buttonOn('BWD')" ng-mouseup="buttonOff('BWD')">BWD</button>
+    <button ng-mousedown="buttonOn('LEFT')" ng-mouseup="buttonOff('LEFT')">LEFT</button>
+    <button ng-mousedown="buttonOn('RIGHT')" ng-mouseup="buttonOff('RIGHT')">RIGHT</button>
   </ion-content>
 </ion-view>
