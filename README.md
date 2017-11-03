@@ -13,6 +13,10 @@ Install NVM
   
   * Windows : https://github.com/coreybutler/nvm-windows
 
-Install Node v6.x.x
+Install Node v6.x.x via NVM
+
+  * `nvm install 6.11.3` // note 6.11.3 is the latest v6 as of this writing
 
 Install Cordova and Ionic
+
+  * http://ionicframework.com/getting-started/
