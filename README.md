@@ -42,3 +42,26 @@ Start your engines
 * `> node server.js`
 
 ## Test and Build the Mobile App Controller
+
+You will need to grab a `ionic.config.json` , and copy it to ` <project_root_dir>/mobile`
+
+Example Ionic Config 
+
+```
+{
+  "name": "rc-car",
+  "app_id": "",
+  "type": "ionic1"
+}
+```
+Run the npm installer and bower installer
+
+* `> cd <project_root_dir>/mobile`
+* `> npm install`
+* `> bower install`
+
+Finally, test that your app is building properly by serving it locally from your laptop
+
+* `> ionic serve`
+
+Your browser should open, and the mobile app showing Left, Right, Forward, Backward controls.
