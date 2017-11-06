@@ -54,7 +54,7 @@ Example Ionic Config
   "type": "ionic1"
 }
 ```
-Run the npm installer and bower installer
+On your development environemnt run the npm installer and bower installer
 
 * `> cd <project_root_dir>/mobile`
 * `> npm install`
