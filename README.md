@@ -78,4 +78,4 @@ Your browser should open, and the mobile app showing Left, Right, Forward, Backw
 
 Be sure you've already tested, then run the following command for building Android APK
 
-* `> ionic cordova build android --prod --release` 
+* `> ionic cordova build android` 
