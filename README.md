@@ -20,3 +20,25 @@ Install Node v6.x.x via NVM
 Install Cordova and Ionic
 
   * http://ionicframework.com/getting-started/
+
+## Install Car CPU
+
+This RC Car hack assumes you have a Raspberry Pi , or other ARM based device on the car.
+
+On the ARM based device Install NVM & Node just as you did in Prerequisites
+
+* Copy the following files to the ARM device
+
+```
+> <project_root_dir>/package.json
+>  ...              /server.js
+>  ...              /.env
+```
+
+* Edit the `.env` file `NODE_URL=...` so that the ARM devices IP Address is correct
+
+Start your engines
+
+* `> node server.js`
+
+## Test and Build the Mobile App Controller
