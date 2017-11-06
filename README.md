@@ -65,3 +65,9 @@ Finally, test that your app is building properly by serving it locally from your
 * `> ionic serve`
 
 Your browser should open, and the mobile app showing Left, Right, Forward, Backward controls.
+
+## Build
+
+Be sure you've already tested, then run the following command for building Android APK
+
+* `> ionic cordova build android --prod --release` 
