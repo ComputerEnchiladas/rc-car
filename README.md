@@ -60,6 +60,14 @@ On your development environemnt run the npm installer and bower installer
 * `> npm install`
 * `> bower install`
 
+Edit the IP address in the mobile app, to point to the ARM device
+
+* `<project_root_dir>/mobile/www/index.html #LINE 35ish
+
+```
+  var socket = io('http://<IP_ADDRESS_HERE>:6085');
+```
+
 Finally, test that your app is building properly by serving it locally from your laptop
 
 * `> ionic serve`
