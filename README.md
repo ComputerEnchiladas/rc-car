@@ -8,29 +8,31 @@ Hacked RC Car
 
 ## Prerequisites for Mobile App Development
 
-Install Android Studio
+Install Android Studio on your laptop
 
   * https://developer.android.com/studio/install.html
-  
-Install NVM 
 
-  * *nix : https://github.com/creationix/nvm
-  
+Install NVM on your laptop
+
+  * Linux or Mac : https://github.com/creationix/nvm
+
   * Windows : https://github.com/coreybutler/nvm-windows
 
-Install Node v6.x.x via NVM
+Install Node v8.x.x via NVM on your laptop
 
-  * `> nvm install 6.11.3` // note 6.11.3 is the latest v6 as of this writing
+  * `> nvm install 8` // note v8.11.1 is the latest version of NodeJS as of this writing
 
-Install Cordova and Ionic
+Install Cordova and Ionic on your laptop
 
   * http://ionicframework.com/getting-started/
 
-## Install Car CPU
+## Install Car CPU and start 
 
 This RC Car hack assumes you have a Raspberry Pi , or other ARM based device on the car.
 
-On the ARM based device Install NVM & Node just as you did in Prerequisites
+On the ARM based device
+
+* Install NVM & Node just as you did in Prerequisites
 
 * Copy the following files to the ARM device
 
@@ -50,7 +52,7 @@ Start your engines
 
 You will need to grab a `ionic.config.json` , and copy it to ` <project_root_dir>/mobile`
 
-Example Ionic Config 
+Example Ionic Config
 
 ```
 {
@@ -83,4 +85,4 @@ Your browser should open, and the mobile app showing Left, Right, Forward, Backw
 
 Be sure you've already tested, then run the following command for building Android APK
 
-* `> ionic cordova build android` 
+* `> ionic cordova build android`
