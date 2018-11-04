@@ -1,5 +1,10 @@
-# rc-car
+# MAHRIO-RC-car
 Hacked RC Car
+
+## Hardware Requirements
+* Raspberry Pi B+ or better
+* Arduino
+* iOS or Android smart phone
 
 ## Prerequisites for Mobile App Development
 
